@@ -1,6 +1,6 @@
-/* =============================
-UNIVERSAL SELECTOR (*) and RESET
-==============================*/
+/* ========================
+ RESET & DEFAULTS
+ ======================== */
 * {
   margin: 0;
   padding: 0;
@@ -34,9 +34,9 @@ body {
   padding: 0 1rem;
 }
 
-/* ==============
-Element Selectors
-================*/
+/* ========================
+ TYPOGRAPHY
+ ======================== */
 
 h1 {
   font-size: 2.5rem;
@@ -80,9 +80,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ============
-Class Selectors
-=============*/
+/* ====================================
+ COMPONENTS (HEADER, NAV, CARD, etc.)
+ ===================================*/
 
 .hero {
   min-height: 70vh;
@@ -102,19 +102,6 @@ Class Selectors
   );
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-}
-
-.hero-overlay > * {
-  pointer-events: auto;
-}
-
 .card {
   flex: 1 1 0;
   min-width: 300px;
@@ -125,11 +112,7 @@ Class Selectors
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-@media (max-width: 560px) {
-  .card {
-    min-width: 100%;
-  }
-}
+
 
 /* images responsive by default */
 img {
@@ -138,6 +121,14 @@ img {
   display: block;
 }
 
+/* ========================
+ RESPONSIVE / MEDIA QUERIES
+ ======================== */
+ @media (max-width: 560px) {
+  .card {
+    min-width: 100%;
+  }
+}
 /* Responsive embed wrapper for iframes (maps/videos) */
 .embed-responsive {
   position: relative;
@@ -160,6 +151,7 @@ img {
   border: 0;
 }
 
+
 /* Responsive hero typography */
 .hero h1,
 .hero h2 {
@@ -173,9 +165,7 @@ img {
   margin: 1rem 0.5rem;
 }
 
-/* ========
-ID Selector
-=========*/
+
 #header {
   background-color: #89cdfa;
   padding: 1rem 1rem;
@@ -231,6 +221,8 @@ header nav a {
   display: inline-block;
   text-decoration: none;
 }
+
+/*footer*/
 #footer {
   text-align: center;
   padding: 1.25rem 1rem;
@@ -272,9 +264,7 @@ footer p {
   color: #ffffff;
 }
 
-/* =========
-Pseudo-class
-==========*/
+/*header option*/
 
 header nav a:hover,
 header nav a:focus {
@@ -284,6 +274,9 @@ header nav a:focus {
   transform: translateY(-1px);
 }
 
+/* ========================
+ Pseudo-classes and Effects
+ ======================== */
 .btn:hover,
 .btn:focus {
   background-color: #435adf;
