@@ -52,3 +52,51 @@ a:hover {
   color: #ff0000; 
   text-decoration: underline;
 }
+
+/* ============
+Class Selectors
+=============*/
+
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.card {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 18px rgba(33, 47, 73, 0.08);
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background-color: #1428a0;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.08s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #0f1f7a;
+  transform: translateY(-1px);
+}
+
+.section {
+  margin: 4rem 1rem;
+}
