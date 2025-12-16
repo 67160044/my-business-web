@@ -14,6 +14,17 @@
 
 ---
 
+## สิ่งที่ปรับปรุง/รวมอยู่แล้ว
+
+- Reset & defaults (universal selector)
+- Design tokens (`:root` variables for colors, z-index)
+- Components: `.hero`, `.card`, `.service-card`, `.team`, `.contact-form`, `button/.btn`
+- Responsive: breakpoints (900/768/480/360) และกฎสำหรับ mobile/tablet
+- Mobile nav: CSS และ optional JS toggle
+- Responsive embeds: `.embed-responsive` สำหรับ iframe/video
+
+---
+
 ## ✨ Features (Style Updated)
 
 - **หน้า**: `index.html`, `about.html`, `services.html`, `contact.html`
