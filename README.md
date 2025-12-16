@@ -14,21 +14,27 @@
 
 ---
 
-## สิ่งที่ปรับปรุง/รวมอยู่แล้ว
-
-- Reset & defaults (universal selector)
-- Design tokens (`:root` variables for colors, z-index)
-- Components: `.hero`, `.card`, `.service-card`, `.team`, `.contact-form`, `button/.btn`
-- Responsive: breakpoints (900/768/480/360) และกฎสำหรับ mobile/tablet
-- Mobile nav: CSS และ optional JS toggle
-- Responsive embeds: `.embed-responsive` สำหรับ iframe/video
-
----
-
 ## ✨ Features (Style Updated)
 
 - **หน้า**: `index.html`, `about.html`, `services.html`, `contact.html`
 - **สไตล์หลัก**: `CSS/styles.css` (responsive + design tokens)
+
+---
+
+## CSS Checklist
+ความเรียบร้อย checklist แต่ละข้อ
+- [x] Universal Selector & Reset 
+- [x] Element Selectors (h1-h4, p, a, etc.) 
+- [x] Class Selectors (.hero, .card, .btn, etc.) 
+- [x] ID Selectors (#header, #footer) 
+- [x] Pseudo-classes (:hover, :active, :first-child) 
+- [x] CSS Units (px, rem, %, vw, vh) 
+- [x] Color Palette & Typography 
+- [x] Box Model (padding, margin, border) 
+- [x] Positioning (sticky, absolute, fixed) 
+- [x] Display & Layout (flexbox, grid) 
+- [x] Hover Effects & Transitions 
+- [x] CSS Organization & Comments
 
 ---
 
